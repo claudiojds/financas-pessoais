@@ -31,11 +31,15 @@ export type ApiGetTrasaction = {
 
 export type ApiGetDashboard = {
     transections: TransactionDashboard[],
-    peding_transections: number,
+    pending_transections: number,
     completed_transections: number
 }
 
 export type ApiNewTransection = {
+    transaction: Transaction
+}
+
+export type ApiUpdateTransaction = {
     transaction: Transaction
 }
 

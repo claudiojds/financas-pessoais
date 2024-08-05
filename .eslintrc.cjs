@@ -14,5 +14,11 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    // Permitir variáveis `let`
+    'no-var': 'error',
+    'prefer-const': 'off',
+    // Permitir o uso de `any`
+    '@typescript-eslint/no-explicit-any': 'off',
   },
+
 }
